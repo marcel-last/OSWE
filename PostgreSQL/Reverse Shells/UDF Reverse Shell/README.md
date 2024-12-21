@@ -8,7 +8,7 @@
 impacket-smbserver -smb2support test .
 ```
 
-3. Start a netcat listener:
+2. Start a netcat listener:
 ```bash
 nc -lnvp 4444
 ```
