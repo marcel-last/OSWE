@@ -1,0 +1,3 @@
+[submodule "Exploit Writing"]
+	path = Exploit Writing
+	url = https://github.com/rizemon/exploit-writing-for-oswe.git
