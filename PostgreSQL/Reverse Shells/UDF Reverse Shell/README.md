@@ -3,7 +3,7 @@
 ## How to use
 
 ### poc1.py
-1. Start a SMB server and host a share in the same directory as the `udf_rev_shell.dll` file:
+1. Start a SMB server and host a share (_test_) in the same directory as the `udf_rev_shell.dll` file:
 ```bash
 impacket-smbserver -smb2support test .
 ```
